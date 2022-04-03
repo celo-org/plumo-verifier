@@ -1,6 +1,6 @@
 {
   "name": "plumo-verifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plumo verifier",
   "main": "index.js",
   "scripts": {
