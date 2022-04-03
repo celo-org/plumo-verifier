@@ -15,6 +15,7 @@ A [persistent prover](https://github.com/celo-org/celo-bls-snark-rs/tree/kobigur
 
 ## Tasks to pick up
 
+- [ ] Direct catch-up when the Plumo proof is being generated after an epoch change - download the latest epoch proof, the next epoch block, verify the signature and update the validator set.
 - [ ] Optimize multiple epoch proofs through receiving just "glue" hashes instead of the entire validator sets.
 - [ ] Batch verification of Groth16 signatures.
 - [ ] Support more kinds of queries - e.g. NFT ownership.
