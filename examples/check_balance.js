@@ -9,7 +9,7 @@ const logger = winston.createLogger({
   ]
 });
 
-const web3 = new Web3("https://forno.celo.org")
+const web3 = new Web3("https://plumo-prover-rpc.kobi.one")
 const kit = newKitFromWeb3(web3);
 
 const plumo = new PlumoVerifier(logger, kit.web3.eth, Buffer);
