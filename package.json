@@ -18,7 +18,7 @@
   "homepage": "https://github.com/kobigurk/plumo-verifier#readme",
   "dependencies": {
     "eth-proof": "github:kobigurk/celo-proof#d79c3cf39a05f4832426adce1fb30e2fa938776c",
-    "eth-util-lite": "github.com:MichaelAllenWarner/eth-util-lite",
+    "eth-util-lite": "1.0.1",
     "rlp": "^3.0.0",
     "bigint-buffer": "1.1.5"
   },
