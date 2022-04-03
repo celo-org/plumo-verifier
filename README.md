@@ -17,4 +17,4 @@ A [persistent prover](https://github.com/celo-org/celo-bls-snark-rs/tree/kobigur
 
 - [ ] Optimize multiple epoch proofs through receiving just "glue" hashes instead of the entire validator sets.
 - [ ] Batch verification of Groth16 signatures.
-- [ ] Support more kinds of queries - e.g. NFT ownership
+- [ ] Support more kinds of queries - e.g. NFT ownership.

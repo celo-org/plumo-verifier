@@ -63,7 +63,7 @@ export class PlumoVerifier {
       )
       const validatorSet = plumo.plumo_verify(this.convertResponseToProof(resp));
       PROOF_CACHE[startEpoch] = {};
-      PROOF_CACHE[startEpoch][endEpoch] = { verified: true };
+      PROOF_CACHE[startEpoch][endEpoch] = { validatorSet: validatorSet };
 
       return validatorSet;
     })
