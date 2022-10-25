@@ -88,7 +88,7 @@ export class PlumoVerifier {
 
       const provider = this.provider
       // note: you can use 730*EPOCH_DURATION + 10 to test a changing validator set
-      const block = await provider.getBlock(730*EPOCH_DURATION + 10)
+      const block = await provider.getBlock('latest')
       if (!block) throw new Error('Failed to retrieve latest block')
       logger.debug(JSON.stringify(block))
       const blockNumber = block.number
